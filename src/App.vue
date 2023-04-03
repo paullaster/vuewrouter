@@ -17,7 +17,7 @@ export default {
     }
 }
 </script>
-<style scoped>
+<style>
 *, *::before, *::after {
     margin:0;
     padding:0;
@@ -42,5 +42,10 @@ body {
 .sidebar {
     background-color: #1c2e4a !important;
     color: #fff;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 </style>
