@@ -50,5 +50,9 @@ body {
     height: 100vh;
 }
 
-a{ color: #fff}
+a{ 
+    color: #fff;
+    text-decoration: none;
+}
+
 </style>
