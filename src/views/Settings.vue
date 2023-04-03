@@ -48,4 +48,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-}</style>
+}
+
+a{ color: #fff}
+</style>
