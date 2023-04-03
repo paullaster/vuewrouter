@@ -1,8 +1,8 @@
 <template>
-    <main>
+    <main class="main">
         <h1>Main</h1>
     </main>
-    <sidebar>
+    <sidebar class="sidebar">
         <h1>Sidebar</h1>
     </sidebar>
 </template>
@@ -15,3 +15,6 @@ export default{
     }
 }
 </script>
+<style scoped>
+
+</style>
