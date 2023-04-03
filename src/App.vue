@@ -1,26 +1,35 @@
 <template>
-    <main class="main">
-        <h1>Main</h1>
-    </main>
-    <sidebar class="sidebar">
-        <h1>Sidebar</h1>
-    </sidebar>
+    <div class="grid">
+        <sidebar class="sidebar">
+            <h1>Sidebar</h1>
+        </sidebar>
+        <main class="main">
+            <h1>Main</h1>
+        </main>
+    </div>
 </template>
 <script>
-export default{
-    data(){
-        return{
-            message:'Hello from Vue'
+export default {
+    data() {
+        return {
+            message: 'Hello from Vue'
         }
     }
 }
 </script>
 <style scoped>
-.main{
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.main {
     background-color: #fff;
 
 }
-.sidebar{
-    background-color: #1c2e4a
+
+.sidebar {
+    background-color: #1c2e4a !important;
 }
 </style>
