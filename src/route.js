@@ -5,8 +5,10 @@ import Sidebar from './components/Sidebar.vue';
 const routes = [
     {
         path: '/',
-        name: 'Home',
-        component: Home,
+        components: {
+            default: Home,
+            sidebar: Sidebar
+        },
 
     }
 ];
