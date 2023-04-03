@@ -16,5 +16,11 @@ export default{
 }
 </script>
 <style scoped>
+.main{
+    background-color: #fff;
 
+}
+.sidebar{
+    background-color: #1c2e4a
+}
 </style>
