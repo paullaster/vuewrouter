@@ -1,11 +1,13 @@
 <template>
-    <sidebar>
-        <h1>Settings</h1>
-        <router-link to="/settings/email">Email</router-link>
-    </sidebar>
-    <main>
-        <router-view name="subscriptions"></router-view>
-    </main>
+    <div class="grid">
+        <sidebar class="sidebar">
+            <h1>Settings</h1>
+            <router-link to="/settings/email">Email</router-link>
+        </sidebar>
+        <main class="main">
+            <router-view name="subscriptions"></router-view>
+        </main>
+    </div>
 </template>
 <script>
 export default {
@@ -14,11 +16,14 @@ export default {
 }
 </script>
 <style>
-*, *::before, *::after {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
     padding: 0;
     margin: 0 !important;
@@ -43,5 +48,4 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-</style>
+}</style>
