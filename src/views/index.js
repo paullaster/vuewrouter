@@ -1,4 +1,9 @@
 import  Settings from './Settings.vue';
+import Profile from './Profile.vue';
+import Email from './Email.vue';
+import Subscription from './Subscription.vue';
+import ChangeProfile from './ChangeProfile.vue';
+import ViewProfile from './ViewProfile.vue';
 
 export {
     Settings,
@@ -6,5 +11,5 @@ export {
     Email,
     Subscription,
     ChangeProfile,
-    Subscrition
+    ViewProfile,
 };
