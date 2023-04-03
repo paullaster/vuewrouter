@@ -2,7 +2,9 @@
     <div class="grid">
         <sidebar class="sidebar">
             <h1>Settings</h1>
-            <router-link to="/settings/email">Email</router-link>
+            <div class="side-nav">
+                <router-link to="/settings/email">Email</router-link>
+            </div>
         </sidebar>
         <main class="main">
             <router-view name="subscriptions"></router-view>
@@ -49,6 +51,9 @@ body {
     padding-top: 28px ;
     align-items: center;
     height: 100vh;
+}
+.side-nav{
+    margin: 16px  0 0 0;
 }
 
 a{ 
