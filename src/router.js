@@ -29,7 +29,7 @@ const routes = [
                 path: 'profile',
                 components: {
                     default: Profile,
-                    subscription: ChangeProfile,
+                    changeProfile: ChangeProfile,
                     viewProfile: ViewProfile
                 },
                 name: 'profile'
