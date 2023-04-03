@@ -1,5 +1,6 @@
 <template>
     <router-view></router-view>
+    <router-view name="sidebar"></router-view>
 </template>
 <script>
 export default{
