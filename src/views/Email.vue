@@ -1,6 +1,6 @@
 <template>
     <div>
-        
+        View your email settings
     </div>
 </template>
 <script>

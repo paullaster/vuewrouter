@@ -19,7 +19,8 @@ const routes = [
         children: [
             {
                 path: 'email',
-                component: Email
+                component: Email,
+                name: 'email'
             }
         ]
     }
