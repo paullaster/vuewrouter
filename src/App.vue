@@ -31,5 +31,6 @@ export default {
 
 .sidebar {
     background-color: #1c2e4a !important;
+    color: #fff;
 }
 </style>
