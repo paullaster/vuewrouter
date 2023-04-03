@@ -58,7 +58,6 @@ body {
 
 a{ 
     display: block;
-    background-color: red;
     color: #fff;
     text-decoration: none;
     padding: 10px;
