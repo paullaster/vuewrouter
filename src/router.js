@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from './components/Home.vue';
 import Sidebar from './components/Sidebar.vue';
-import {Settings, Email, Subscription, Profile, ChangeProfile, ViewProfile} from './views'
+import { Settings, Email, Subscription, Profile, ChangeProfile, ViewProfile } from './views'
 
 const routes = [
     {
@@ -15,15 +15,12 @@ const routes = [
     {
         path: '/settings',
         component: Settings,
-        name:'settings',
+        name: 'settings',
         children: [
             {
                 path: 'email',
-                components: {
-                    default: Email,
-                    subscription: Subscription
-                },
-                name: 'email'
+                components: {default: Email, subscriptions: Subscription},
+                name: 'email',
             },
             {
                 path: 'profile',
@@ -43,4 +40,4 @@ const router = createRouter({
     routes,
 });
 
-export {router};
+export { router };
