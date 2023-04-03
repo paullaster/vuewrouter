@@ -45,14 +45,19 @@ body {
     color: #fff;
     display: flex !important;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    padding-top: 28px ;
     align-items: center;
     height: 100vh;
 }
 
 a{ 
+    display: block;
+    background-color: red;
     color: #fff;
     text-decoration: none;
+    padding: 10px;
+    font-size: 24px
 }
 
 </style>
