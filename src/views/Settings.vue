@@ -4,10 +4,13 @@
             <h1>Settings</h1>
             <div class="side-nav">
                 <router-link to="/settings/email">Email</router-link>
+                <router-link to="/settings/profile">Profile</router-link>
             </div>
         </sidebar>
         <main class="main">
             <router-view name="subscriptions"></router-view>
+            <router-view name="changeProfile"></router-view>
+            <router-view name="changePassword"></router-view>
         </main>
     </div>
 </template>
