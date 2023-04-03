@@ -1,7 +1,7 @@
 <template>
     <div class="grid">
         <sidebar class="sidebar">
-            <router-view name="settings"></router-view>
+            <router-view></router-view>
         </sidebar>
         <main class="main">
             <h1>Main</h1>

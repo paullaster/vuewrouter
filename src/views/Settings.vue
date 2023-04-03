@@ -1,9 +1,6 @@
 <template>
     <h1>Settings</h1>
-    <router-view></router-view>
-    <router-view name="subscription"></router-view>
-    <router-view name="changeProfile"></router-view>
-    <router-view name="viewProfile"></router-view>
+    <router-link to="/settings/email" >Email</router-link>
 </template>
 <script>
 export default {
@@ -12,5 +9,8 @@ export default {
 }
 </script>
 <style scoped>
-
+a{
+    color: #fff;
+    text-decoration: none;
+}
 </style>
