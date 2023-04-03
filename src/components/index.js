@@ -1,7 +1,3 @@
-import Home from './Home.vue';
-import Sidebar from './Sidebar.vue';
+export {default as Home} from './Home.vue';
+export {default as Sidebar} from './Sidebar.vue';
 
-export {
-    Home,
-    Sidebar,
-}
