@@ -1,12 +1,5 @@
 <template>
-    <div class="grid">
-        <sidebar class="sidebar">
-            <router-view></router-view>
-        </sidebar>
-        <main class="main">
-            <h1>Main</h1>
-        </main>
-    </div>
+    <router-view></router-view>
 </template>
 <script>
 export default {
