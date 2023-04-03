@@ -10,6 +10,10 @@ const routes = [
             sidebar: Sidebar
         },
 
+    },
+    {
+        path: '/settings',
+        component: Settings
     }
 ];
 
