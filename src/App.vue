@@ -1,7 +1,10 @@
 <template>
-    <router-view>
-    </router-view>
-    <router-view name="sidebar"></router-view>
+    <main>
+        <h1>Main</h1>
+    </main>
+    <sidebar>
+        <h1>Sidebar</h1>
+    </sidebar>
 </template>
 <script>
 export default{
