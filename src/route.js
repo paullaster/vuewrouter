@@ -5,7 +5,11 @@ const routes = [
     {
         path: '/',
         name: 'Home',
-        component: Home
+        component: {
+            default: Home,
+            sidebar: Sidebar,
+        }
+
     }
 ];
 
