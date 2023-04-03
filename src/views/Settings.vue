@@ -10,7 +10,7 @@
         <main class="main">
             <router-view name="subscriptions"></router-view>
             <router-view name="changeProfile"></router-view>
-            <router-view name="changePassword"></router-view>
+            <router-view name="viewProfile"></router-view>
         </main>
     </div>
 </template>
