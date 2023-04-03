@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from './components/Home.vue';
 import Sidebar from './components/Sidebar.vue';
-import {Settings, Email} from './views'
+import {Settings, Email, Subscription} from './views'
 
 const routes = [
     {
@@ -19,7 +19,10 @@ const routes = [
         children: [
             {
                 path: 'email',
-                component: Email,
+                components: {
+                    default: Email,
+                    subscription: Subscription
+                },
                 name: 'email'
             }
         ]
