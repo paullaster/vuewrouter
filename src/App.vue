@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <p>{{ message }}</p>
-    </div>
+    <router-view></router-view>
 </template>
 <script>
 export default{
