@@ -18,6 +18,16 @@ export default {
 }
 </script>
 <style scoped>
+*, *::before, *::after {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    padding: 0;
+    margin: 0 !important;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 4fr 8fr;
