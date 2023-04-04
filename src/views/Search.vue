@@ -1,6 +1,6 @@
 <template>
     <div>
-        
+        Search here
     </div>
 </template>
 <script>
