@@ -21,6 +21,7 @@ const routes = [
     {
         path: '/users/:userId',
         component: SingleUser,
+        props: true,
     },
     {
         path: '/somewhere',

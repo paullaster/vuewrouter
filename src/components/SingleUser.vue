@@ -1,10 +1,16 @@
 <template>
     <div>
-        {{ $route.params.userId }}
+        {{ userId }}
     </div>
 </template>
 <script>
 export default {
-    name: "SingleUsers"
+    name: "SingleUsers",
+    props: {
+        userId: {
+            type: String,
+            required: true
+        }
+    }
 }
 </script>
