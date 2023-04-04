@@ -22,6 +22,17 @@ const routes = [
 
     },
     {
+        path: '/search',
+        redirect: to => {
+            return {path: '/search', query: {q: to.params.searchText}}
+        },
+        // components: {
+        //     default: Home,
+        //     sidebar: Sidebar
+        // },
+
+    },
+    {
         path: '/search/:searchText',
         redirect: to => {
             return {path: '/search', query: {q: to.params.searchText}}
