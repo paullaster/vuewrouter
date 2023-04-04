@@ -14,6 +14,11 @@ const routes = [
 
     },
     {
+        path: '/users',
+        components: Users,
+
+    },
+    {
         path: '/somewhere',
         redirect: {name: "settings"},
         // components: {
