@@ -13,6 +13,15 @@ const routes = [
 
     },
     {
+        path: '/somewhere',
+        redirects: '/',
+        // components: {
+        //     default: Home,
+        //     sidebar: Sidebar
+        // },
+
+    },
+    {
         path: '/settings',
         component: Settings,
         name: 'settings',
