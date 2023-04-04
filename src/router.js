@@ -16,7 +16,6 @@ const routes = [
     {
         path: '/users',
         component: Users,
-
     },
     {
         path: '/somewhere',
