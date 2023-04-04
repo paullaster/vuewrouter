@@ -1,6 +1,5 @@
 <template>
     <div>
-        Okoth
         {{ $route.params.userId }}
     </div>
 </template>
