@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from './components/Home.vue';
 import Sidebar from './components/Sidebar.vue';
 import Users from './components/Users.vue';
+import SingleUser from './components/SingleUser.vue';
 import { Settings, Email, Subscription, Profile, ChangeProfile, ViewProfile, Search,  } from './views'
 
 const routes = [
@@ -21,7 +22,7 @@ const routes = [
                 path: '/users/:userId',
                 component: SingleUser,
             }
-        ]
+        ],
     },
     {
         path: '/somewhere',
