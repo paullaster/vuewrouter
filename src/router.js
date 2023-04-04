@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from './components/Home.vue';
 import Sidebar from './components/Sidebar.vue';
-import { Settings, Email, Subscription, Profile, ChangeProfile, ViewProfile } from './views'
+import { Settings, Email, Subscription, Profile, ChangeProfile, ViewProfile, Search,  } from './views'
 
 const routes = [
     {
@@ -23,14 +23,7 @@ const routes = [
     },
     {
         path: '/search',
-        redirect: to => {
-            return {path: '/search', query: {q: to.params.searchText}}
-        },
-        // components: {
-        //     default: Home,
-        //     sidebar: Sidebar
-        // },
-
+        component: Search,
     },
     {
         path: '/search/:searchText',
