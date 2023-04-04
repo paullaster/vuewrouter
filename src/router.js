@@ -19,7 +19,7 @@ const routes = [
         component: Users,
         children: [
             {
-                path: '/users/:userId',
+                path: ':userId',
                 component: SingleUser,
             }
         ],
