@@ -14,7 +14,7 @@ const routes = [
     },
     {
         path: '/somewhere',
-        redirects: '/',
+        redirect: {name: "settings"},
         // components: {
         //     default: Home,
         //     sidebar: Sidebar
