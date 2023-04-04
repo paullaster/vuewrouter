@@ -16,6 +16,12 @@ const routes = [
     {
         path: '/users',
         component: Users,
+        children: [
+            {
+                path: '/users/:userId',
+                component: SingleUser,
+            }
+        ]
     },
     {
         path: '/somewhere',
