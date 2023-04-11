@@ -24,6 +24,11 @@ const routes = [
         props: true,
     },
     {
+        path: '/login',
+        component: SingleUser,
+        props: true,
+    },
+    {
         path: '/somewhere',
         redirect: {name: "settings"},
         // components: {
@@ -56,6 +61,7 @@ const routes = [
                 path: 'email',
                 components: {default: Email, subscriptions: Subscription},
                 name: 'email',
+                meta: {requiresAuth: true}
             },
             {
                 path: 'profile',

@@ -5,6 +5,7 @@ import Subscription from './Subscription.vue';
 import ChangeProfile from './ChangeProfile.vue';
 import ViewProfile from './ViewProfile.vue';
 import Search from './Search.vue';
+import Login from './Login.vue';
 
 export {
     Settings,
@@ -13,5 +14,6 @@ export {
     Subscription,
     ChangeProfile,
     ViewProfile,
-    Search
+    Search,
+    Login,
 };
