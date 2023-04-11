@@ -17,7 +17,13 @@
 <script>
 export default {
     name: 'Settings',
-
+    data: function (){
+        return {
+            auth : {
+                isLoggedIn: true
+            }
+        }
+    },
     mounted(){
         console.log(this.$route);
     }

@@ -82,4 +82,13 @@ const router = createRouter({
     routes,
 });
 
+router.beforeEach((to, from) => {
+    if(to.name !== 'default'){
+        return {
+            path: '/'
+        }
+    }
+});
+
+
 export { router };
