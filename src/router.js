@@ -3,7 +3,7 @@ import Home from './components/Home.vue';
 import Sidebar from './components/Sidebar.vue';
 import Users from './components/Users.vue';
 import SingleUser from './components/SingleUser.vue';
-import { Settings, Email, Subscription, Profile, ChangeProfile, ViewProfile, Search,  } from './views'
+import { Settings, Email, Subscription, Profile, ChangeProfile, ViewProfile, Search, Login,  } from './views'
 
 const routes = [
     {
@@ -25,7 +25,7 @@ const routes = [
     },
     {
         path: '/login',
-        component: SingleUser,
+        component: Login,
         props: true,
     },
     {
