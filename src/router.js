@@ -56,6 +56,7 @@ const routes = [
         path: '/settings',
         component: Settings,
         name: 'settings',
+        meta: {requiresAuth: true},
         children: [
             {
                 path: 'email',

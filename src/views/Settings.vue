@@ -18,6 +18,9 @@
 export default {
     name: 'Settings',
 
+    mounted(){
+        console.log(this.$route);
+    }
 }
 </script>
 <style>
