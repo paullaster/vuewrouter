@@ -8,6 +8,7 @@ import { Settings, Email, Subscription, Profile, ChangeProfile, ViewProfile, Sea
 const routes = [
     {
         path: '/',
+        name: 'Home',
         components: {
             default: Home,
             sidebar: Sidebar
@@ -83,7 +84,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from) => {
-    if(to.name !== 'default'){
+    if(to.name !== 'Home'){
         return {
             path: '/'
         }
